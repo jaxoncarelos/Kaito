@@ -9,9 +9,9 @@ local function count_chars(str)
 end
 
 local REPLIES = {
-    ["thanks kaito"] = { "You're welcome", "No problem!", "Nya~!" },
-    ["based kaito"] = {"😎", "💪", "Nya~!"},
-    ["fuck kaito"] = {"Yes, uwu", "Yes, fuck me", "Nya~!!!", "Myaa~!!"}
+    ["thanks kaito"] = { "You're welcome", "No problem!", "Anytime" },
+    ["based kaito"] = {"😎", "💪", "Thanks"},
+    ["fuck kaito"] = {"Yes, uwu", "Yes, fuck me", "Sorry", "I Apologize"}
 }
 
 hooks.add("message", "replies", function(msg)
